@@ -1,0 +1,32 @@
+.sage-footer-container {
+    background-color:black;
+    color: white !important;
+    width: 100%;
+    padding: 0rem 0.5rem 0.5rem 0.5rem;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav.sage-footer {
+    color: white !important;
+
+}
+.nav-item.sage-links {
+    padding-left:1rem;
+    padding-right: 1rem; 
+}
+.nav-item.sage-links a:link, a:visited, a:active {
+    color: white;
+    text-decoration:none;
+}
+.nav-item.sage-links a:hover {
+    color: #00d639 !important;
+}
+.nav sage-social {
+    fill: white !important; 
+}
+
+.sage-icon.icon-twitter {
+    width: 48px !important;
+}

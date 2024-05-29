@@ -1,0 +1,29 @@
+
+#integratedproducts {
+    font-size: small;
+    font-family: 'sage-text-medium';
+    background-color: black;
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+}
+
+.intcard-card {
+    border-color: white;
+    border-width: 1rem;
+}
+
+.intcard-footer {
+    background-color: black;
+    border-color: white;
+    color: white;
+}
+.col.intprod {
+    padding-bottom: 1rem;
+}
+#integratedproducts a {
+    background-color: #00d639; 
+    border-color: black;
+    color: black; 
+    font-family: 'sage-text-medium';
+}
+

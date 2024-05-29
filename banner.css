@@ -1,0 +1,31 @@
+.banner-container {
+  display: flex;
+  background-color: black;
+  flex-direction: row;
+  height: 240px;
+}
+
+.banner-text {
+  width: 60%;
+  padding: 2rem 1.5rem  3.5rem  7.25rem;
+  text-align: left;
+  color: white;
+}
+
+.banner-image {
+  width: 400px;
+  height: auto;
+  object-fit: fill;
+  object-position: -5px 50%;
+  border-bottom-left-radius: 195px;
+  border-top-left-radius: 175px;
+  padding-bottom: 15px;
+  overflow: hidden;
+  margin-left: auto
+}
+
+ .banner-text a { 
+  text-decoration: none;
+  color: white;
+  font-family: 'sage-text-medium'
+}

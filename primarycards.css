@@ -1,0 +1,33 @@
+#productresources a {
+color: black;
+text-decoration:none;
+font-weight: normal;
+} 
+
+
+.card-icon {
+width: 5em;
+height: 4em;
+padding-bottom: 0.5em;
+}
+
+#productresources {
+    margin: 2rem;
+}
+.card-title.sage {
+    font-family:'sage-text-medium';
+}
+
+.pc-button {
+    color: black;
+    background-color: #00d639;
+    font-weight: bold;
+    padding: 0.5em;
+    font-size: 14px;
+    border-radius: 6px;
+    border:2px solid #00d639;
+ }
+ #productresources .card {
+    background-color: black;
+    color: white;
+ }

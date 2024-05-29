@@ -1,0 +1,31 @@
+.accordion {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: .5rem;
+  padding-left: .5rem;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 23px;
+  transition: 0.4s;
+  font-family: 'sage-text-medium';
+  font-weight: regular;
+}
+
+.active,
+.accordion:hover {
+  background-color: black;
+}
+
+
+.panel {
+  background-color: white;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.acc-caption {
+  padding-left: 1rem; 
+}

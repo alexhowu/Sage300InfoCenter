@@ -1,0 +1,36 @@
+nav {
+  overflow: hidden;
+  background-color: black;
+  color: white;
+  /* margin-left: 5%; */
+  padding-left: 100px;
+}
+.sagelogo {
+  position: absolute;
+  left: 10px;
+  margin-bottom: 10px;
+  height: 75px;
+  width: auto;
+}
+nav a {
+  float: left;
+  color: white;
+  margin-top: 10px;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-family: 'sage-text-medium';
+}
+nav a:link, a:visited { 
+  color: white;
+}
+
+nav a:hover {
+  color: #00d639 !important;
+  font-family: 'sage-text-medium' !important;
+}
+
+nav :active { 
+  color: white;
+}
+

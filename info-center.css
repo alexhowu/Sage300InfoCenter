@@ -1,0 +1,43 @@
+:root {
+    --bs-body-bg: darkgrey;
+}
+@font-face {
+    font-family: 'sage-headline-black';
+    src: local('sage-headline-black'), url(./assets/fonts/Sage_Headline-Black.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'sage-text-regular';
+    src: local('sage-text-regular'), url(./assets/fonts/Sage_Text-Regular.woff2) format('woff2');
+    
+}
+
+@font-face {
+    font-family: 'sage-text-bold';
+    src: local('sage-text-bold'), url(./assets/fonts/Sage_Text-Bold.woff2) format('woff2'); 
+}
+
+@font-face {
+    font-family: 'sage-text-medium';
+    src: local('sage-text-medium'), url(./assets/fonts/Sage_Text-Medium.woff2) format('woff2'); 
+}
+body{
+    font-family: 'sage-text-regular';
+}
+#infocenterheader {
+    font-family: 'sage-headline-black';
+
+}
+
+#fixedmenubar {
+    font-family: 'sage-text-medium';
+    color: white; 
+    background-color: black;
+}
+
+
+.sage-icon {
+    width: 50px;
+    height: auto;
+    padding: 10px 12px;
+}
