@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author"
+        content="version 1.0, Alex Howu"
+        >
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate, post-check=0, pre-check=0" />
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="Pragma" content="no-cache" />
+
+    <title>Sage 300 Information Center</title>
+
+    <link rel="icon" type="image/png" href="./assets/images/sageicon32.ico">
+
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="./info-center.css" rel="stylesheet">
+    <link href="./integrated-products.css" rel="stylesheet">
+    <link href="./banner.css" rel="stylesheet">
+    <link href="./navbar.css" rel="stylesheet">
+    <link href="./carousel.css" rel="stylesheet">
+    <link href="./primarycards.css" rel="stylesheet">
+    <link href="./footer.css" rel="stylesheet">
+    <link href="./accordian.css" rel="stylesheet">
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./announce_carousel.js"></script>
+    <script src="./accordian.js"></script>
+    <script src="./footer.js"></script>
+
+
+</head>
+
+<body>
+    <div id='fixedmenubar'>
+        <img class='sagelogo' src='./assets/images/Sage 300cloud-1.svg'>
+        <nav>
+            <a href="https://communityhub.sage.com/global-resources?GroupId=4&Country=United%20States&ProductId=31" target="_blank">Resource Center</a>
+            <a href="https://customers.sagenorthamerica.com/" target="_blank">Customer Portal</a>
+            <a href="#integratedproducts">Integrated Products</a>
+            <!-- https://help-sage100.na.sage.com/Marketplace/benefits.html" redirects to this url but causes page to be displayed outside Sage 100 -->
+            <a href="https://us-marketplace.sage.com/en-US/listing?attr=2689" target="_blank">Sage 300
+                Marketplace</a>
+            <a href="https://www5.v1ideas.com/TheSageGroupplc/Sage300ERP" target="_blank">Share your ideas</a>
+        </nav>
+    </div>
+
+    <div id='infocenterheader'>
+        <div class='banner-container'>
+            <div class='banner-text'>
+                <h2>Sage 300</h2>
+                <h3>Information Center</h3>
+                <p>
+                    <a href='https://support.na.sage.com/selfservice/microsites/microsite.do' target="_blank">
+                        Connect with Sage for tools and information that will help you get the most out of Sage 300.
+                    </a>
+                </p>
+            </div>
+            <img src='./assets/images/InfoCenterImage1.jpg' class='banner-image'>
+        </div>
+    </div>
+
+
+    <div id="announcements_carousel" class="carousel slide" >
+        <div id="ac_indicators" class="carousel-indicators">
+        </div>
+        <div id="ac_inner" class="carousel-inner">
+
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#announcements_carousel"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#announcements_carousel"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+<!--  
+    <div id="offline_carousel" class="carousel" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#offline_carousel" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#offline_carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#offline_carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill=" #003349" />
+                </svg>
+
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Get Sage Advice</h1>
+                        <p>Business tools and advice from real experts</p>
+                        <p><a class="btn btn-lg announce-button" href="https://www.sage.com/en-us/" target="_blank">Seek
+                                Advice</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="10000">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill=" #003349" />
+                </svg>
+
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Sage 100 2022 is Available!</h1>
+                        <p>View all that Sage 100 2022 release has to offer. </p>
+                        <p><a class="btn btn-lg announce-button" href="https://www.sagecity.com" target="_blank">Take a
+                                Look</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="10000">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill=" #003349" />
+                </svg>
+
+                <div class="container">
+                    <div class="carousel-caption text-end">
+                        <h1>Sage Partner Cloud </h1>
+                        <p>SPC can offload maintenance to the cloud.</p>
+                        <p><a class="btn btn-lg announce-button"
+                                href="https://www.sage.com/en-us/partners/sage-partner-cloud/" target="_blank">Learn
+                                More</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#offline_carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#offline_carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div> -->
+
+    <div id='productresources'>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <a href="https://us-kb.sage.com/portal/app/portlets/results/viewsolution.jsp?solutionid=230609135701460" target="_blank">
+                    <div class="card h-100 rounded-3 text-center">
+                        <div class="card-body">
+                            <img src="./assets/icons/30x30_download_green-on-transparent_icon (original).svg"
+                                class="card-icon" alt="30x30_download_green-on-transparent_icon">
+                            <h5 class="card-title sage">Product Update</h5>
+                            <p class="card-text">Using older software?<br>You may be missing out.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button type="button" class="pc-button">Current Software Downloads</button>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="https://cdn.na.sage.com/docs/en/customer/300erp/documentation.htm" target="_blank">
+                    <div class="card h-100 rounded-3 text-center">
+                        <div class="card-body">
+                            <img src="./assets/icons/30x30_page_green-on-transparent_icon (original).svg"
+                                class="card-icon" alt="30x30_page_green-on-transparent_icon">
+                            <h5 class="card-title sage">Product Documents</h5>
+                            <p class="card-text">Access release notes, technical documentation, and much more.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button type="button" class="pc-button">Sage 300 Documents</button>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www5.v1ideas.com/TheSageGroupplc/Sage300ERP" target="_blank">
+                    <div class="card h-100 rounded-3 text-center">
+                        <div class="card-body">
+                            <img src="./assets/icons/30x30_building-and-people_green-on-transparent_icon (original).svg"
+                                class="card-icon" alt="30x30_building-and-people_green-on-transparent_icon">
+                            <h5 class="card-title sage">Share Your Ideas</h5>
+                            <p class="card-text">
+                                When you ask, we listen. Share ideas for enhancements to Sage 300.
+                            </p>
+                        </div>
+                        <div class="card-footer align-items-bottom">
+                            <button type="button" class="pc-button">Share or Vote Today</button>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="https://www.sage.com/en-us/products/sage-300/customer-resources/" target="_blank">
+                    <div class="card h-100 rounded-3 text-center">
+                        <div class="card-body">
+                            <img src="./assets/icons/30x30_info_green-on-transparent_icon (original).svg"
+                                class="card-icon" alt="30x30_info_green-on-transparent_icon">
+                            <h5 class="card-title sage">Maximize Sage 300</h5>
+                            <p class="card-text">
+                                Access the latest webinars, resources and updates crafted just for Sage 300 customers.
+                            </p>
+                        </div>
+                        <div class="card-footer align-items-bottom">
+                            <button type="button" class="pc-button">Learn More</button>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id='spotlightcontent' style="display:none">
+        <p>
+            Spotlight Content
+        </p>
+
+    </div>
+
+
+    <button class="accordion" id="ip">
+        <img id="ip_down" class="sage-icon" src="./assets/icons/30x30_chevron-down_green-on-transparent_icon.svg">
+        <img id="ip_right" class="sage-icon" src="./assets/icons/30x30_chevron-right_green-on-transparent_icon.svg">
+        <span class="acc_caption">Integrated products</span></button>
+    <div id = "ip_panel" class="panel">
+        <div id="integratedproducts">
+            <div class="container">
+                <div class="row">
+                    <div class="col intprod">
+                        <div class="card text-center h-100 intcard-card">
+                            <div class="card-body">
+                                <h4 class="card-title">Sage CRM</h4>
+                                <p class="card-text">Improve customer retention and drive revenue growth.</p>
+                            </div>
+                            <div class="card-footer intcard-footer">
+                                  <a href="https://www.sage.com/en-us/products/sage-crm/"class="btn intcard-button btn-sm stretched-link" target="_blank">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col intprod">
+                        <div class="card text-center h-100 intcard-card">
+                            <div class="card-body">
+                                <h4 class="card-title">Sage HRMS</h4>
+                                <p class="card-text">Improve HR policies with comprehensive, customizable HR software.
+                                </p>
+                            </div>
+                            <div class="card-footer intcard-footer">
+                                <a href="https://www.sage.com/en-us/products/sage-hrms/"
+                                    class="btn intcard-button btn-sm stretched-link" target="_blank">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col intprod">
+                        <div class="card text-center h-100 intcard-card">
+                            <div class="card-body">
+                                <h4 class="card-title">Sage Fixed Assets</h4>
+                                <p class="card-text">Simplified fixed-assets tracking with comprehensive depreciation
+                                    calculations.</p>
+                            </div>
+                            <div class="card-footer intcard-footer">
+                                <a href="https://www.sage.com/en-us/products/sage-fixed-assets/"
+                                    class="btn intcard-button btn-sm stretched-link" target="_blank">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col intprod">
+                        <div class="card text-center h-100 intcard-card">
+                            <div class="card-body">
+                                <h4 class="card-title">Sage Intelligence</h4>
+                                <p class="card-text">Easy, flexible reporting providing accurate insights into your
+                                    data.</p>
+                            </div>
+                            <div class="card-footer intcard-footer">
+                                <a href="https://www.sageintelligence.com/solutions/sage-300/"
+                                    class="btn intcard-button btn-sm stretched-link" target="_blank">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sage-footer-container">
+
+        <span>&copy; Sage Group plc <span id="sage_copy_year"></span></span>
+
+        <ul class="nav">
+            <li class="nav-item sage-links"><a href='https://www.sage.com/en-us/legal/' target="_blank">Legal</a></li>
+            <li class="nav-item sage-links">
+                <a href='https://www.sage.com/en-us/legal/privacy-and-cookies/' target="_blank">Privacy notice and
+                    cookies</a>
+            </li>
+            <li class="nav-item sage-links">
+                <a href='https://www.sage.com/en-us/gdpr/' target="_blank">General data protection regulation</a>
+            </li>
+
+        </ul>
+        <ul class="nav sage-social">
+            <a href="https://www.facebook.com/Sage" target="_blank"><img class="sage-icon"
+                    src="assets/icons/logo-facebook.png" alt="Facebook"></a>
+            <a href="https://twitter.com/SageUSAmerica" target="_blank"><img class="sage-icon icon-twitter"
+                    src="./assets/icons/logo-X.png" alt="Twitter"></a>
+            <a href="https://www.youtube.com/c/SageSupport/search?query=sage%20300" target="_blank"><img
+                    class="sage-icon" src="./assets/icons/logo-youtube.png" alt="YouTube"></a>
+            <a href="https://instagram.com/lifeatsage/" target="_blank"><img class="sage-icon"
+                    src="./assets/icons/logo-instagram.png" alt="Instagram"></a>
+        </ul>
+
+    </div>
+</body>
+
+</html>
